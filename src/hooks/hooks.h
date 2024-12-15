@@ -9,12 +9,12 @@ namespace Hooks {
 	{
 	public:
 		static void Install() {
-			REL::Relocation<std::uintptr_t> getSpellDescriptionTarget{ REL::ID(51898), 0x5DC };
-			REL::Relocation<std::uintptr_t> getSpellTomeDescriptionTarget{ REL::ID(51897), 0xF5C };
-			REL::Relocation<std::uintptr_t> getMagicWeaponDescriptionTarget{ REL::ID(51897), 0x1377 };
+			REL::Relocation<std::uintptr_t> getSpellDescriptionTarget{ REL::ID(51020), 0x5DC };
+			REL::Relocation<std::uintptr_t> getSpellTomeDescriptionTarget{ REL::ID(51019), 0xDA1 };
+			REL::Relocation<std::uintptr_t> getMagicWeaponDescriptionTarget{ REL::ID(51019), 0x11BB };
 
-			REL::Relocation<std::uintptr_t> getProjectileTarget{ REL::ID(34450), 0x53 };
-			REL::Relocation<std::uintptr_t> getImpactDataTarget{ REL::ID(44100), 0x228 };
+			REL::Relocation<std::uintptr_t> getProjectileTarget{ REL::ID(33670), 0x53 };
+			REL::Relocation<std::uintptr_t> getImpactDataTarget{ REL::ID(42920), 0x228 };
 
 			auto& trampoline = SKSE::GetTrampoline();
 

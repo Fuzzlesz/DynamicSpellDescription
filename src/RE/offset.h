@@ -6,7 +6,7 @@ namespace RE
 	{
 		namespace EffectSetting
 		{
-			constexpr auto factory = REL::ID(11047);
+			constexpr auto factory = REL::ID(11035);
 		}
 	}
 }
